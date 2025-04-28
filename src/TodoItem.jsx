@@ -40,7 +40,7 @@ const TodoItem = ({ todo, completeTodo, editTodo, deleteTodo }) => {
           />
           <button
             onClick={handleSave}
-            className="ml-2 px-2 py-1 bg-green-500 text-white text-sm rounded hover:bg-green-600"
+            className="px-2 py-1 bg-green-500 text-white text-sm rounded hover:bg-green-600"
           >
             Save
           </button>
